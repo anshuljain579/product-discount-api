@@ -1,4 +1,4 @@
-package com.nexure.com.nexure.productapi.config
+package com.nexure.productapi.config
 import io.ktor.server.application.Application
 import org.jetbrains.exposed.sql.Database
 

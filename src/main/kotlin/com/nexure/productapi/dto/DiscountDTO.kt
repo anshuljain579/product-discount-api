@@ -1,4 +1,4 @@
-package com.nexure.com.nexure.productapi.dto
+package com.nexure.productapi.dto
 import kotlinx.serialization.Serializable
 @Serializable
 data class DiscountDTO(

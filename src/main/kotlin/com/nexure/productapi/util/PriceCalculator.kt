@@ -1,4 +1,4 @@
-package com.nexure.com.nexure.productapi.util
+package com.nexure.productapi.util
 
 object PriceCalculator {
     private val valRules = mapOf("Sweden" to 0.25, "Germany" to 0.19, "France" to 0.20)

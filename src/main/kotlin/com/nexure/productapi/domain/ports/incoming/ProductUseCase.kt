@@ -1,7 +1,7 @@
-package com.nexure.com.nexure.productapi.domain.ports.incoming
+package com.nexure.productapi.domain.ports.incoming
 
-import com.nexure.com.nexure.productapi.domain.model.Discount
-import com.nexure.com.nexure.productapi.domain.model.Product
+import com.nexure.productapi.domain.model.Discount
+import com.nexure.productapi.domain.model.Product
 
 interface ProductUseCase {
     fun getProductByCountry(country: String): List<Product>

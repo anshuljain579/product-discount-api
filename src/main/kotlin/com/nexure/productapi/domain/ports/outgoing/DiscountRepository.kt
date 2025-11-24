@@ -1,6 +1,6 @@
-package com.nexure.com.nexure.productapi.domain.ports.outgoing
+package com.nexure.productapi.domain.ports.outgoing
 
-import com.nexure.com.nexure.productapi.domain.model.Discount
+import com.nexure.productapi.domain.model.Discount
 
 interface DiscountRepository {
     fun findByProductId(productId: String): List<Discount>
