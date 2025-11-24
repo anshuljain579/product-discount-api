@@ -1,0 +1,11 @@
+ktor:
+  deployment:
+    port: 8090
+  application:
+    modules:
+      - com.nexure.ApplicationKt.module
+  database:
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    driver: "org.postgresql:Driver"
+    username: "postgres"
+    password: "postgres"
